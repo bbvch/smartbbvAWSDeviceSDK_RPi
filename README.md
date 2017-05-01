@@ -1,3 +1,9 @@
+## Einleitung
+Der nachfolgende Text stammt aus dem ursprünglichen AWS-Repository. Die Version hier hat folgende Änderungen gegnüber dem Original:
+* Eine angepasste OpenSSL-Bibliothek, welche auf dem RPi funktioniert
+* CppUTest-Bibliothek für RPi
+
+
 ##Overview
 
 The AWS IoT device SDK for embedded C is a collection of C source files which can be used in embedded applications to securely connect to the [AWS IoT platform](http://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html). It includes transport clients **MQTT**, **TLS** implementations and examples for their use. It also supports AWS IoT specific features such as **Thing Shadow**. It is distributed in source form and intended to be built into customer firmware along with application code, other libraries and RTOS. For additional information about porting the Device SDK for embedded C onto additional platforms please refer to the [PortingGuide](https://github.com/aws/aws-iot-device-sdk-embedded-c/blob/master/PortingGuide.md/).
